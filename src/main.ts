@@ -13,7 +13,7 @@ export function translate(
   query: TranslateQuery,
   completion: (data: TranslateCompletion) => void,
 ): void {
-  const api = new Api($option.provider, $option.token)
+  const api = new Api($option.provider, $option.token, $option.custom_provider)
 
   ;(async () => {
     const targetLanguage = langMap.get(query.detectTo)

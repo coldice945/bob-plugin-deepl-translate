@@ -34,7 +34,7 @@
     "@typescript-eslint/parser": "^4.8.0",
     "adm-zip": "^0.4.16",
     "cross-env": "^7.0.2",
-    "esbuild": "^0.7.22",
+    "esbuild": "^0.8.32",
     "eslint": "^7.13.0",
     "eslint-plugin-prettier": "^3.1.4",
     "form-data": "^3.0.0",

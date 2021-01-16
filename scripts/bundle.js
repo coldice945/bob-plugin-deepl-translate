@@ -20,12 +20,19 @@ function generateInfo() {
         identifier: 'token',
         type: 'text',
         title: 'Token',
+        defaultValue: 'Custom server may do not need',
+      },
+      {
+        identifier: 'custom_provider',
+        type: 'text',
+        title: 'Custom server',
+        defaultValue: 'http://127.0.0.1:1337',
       },
       {
         identifier: 'provider',
         type: 'menu',
         title: 'API',
-        defaultValue: 'deepl',
+        defaultValue: 'custom',
         menuValues: [
           {
             title: 'DeepL',
@@ -38,6 +45,10 @@ function generateInfo() {
           {
             title: 'A Translator (Global)',
             value: 'a-translator-cf',
+          },
+          {
+            title: 'Custom Server',
+            value: 'custom',
           },
           ...(process.env.NODE_ENV === 'development'
             ? [

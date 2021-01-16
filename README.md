@@ -1,3 +1,5 @@
+# 修改说明
+添加自定义服务器选项，可以结合 [DeepL 自定义服务器](https://github.com/reycn/deepl_custom_server_for_bob) 实现免费接口。
 # bob-plugin-deepl-translate
 
 这是一个 [Bob](https://ripperhe.gitee.io/bob/#/) 使用的 DeepL 翻译插件。

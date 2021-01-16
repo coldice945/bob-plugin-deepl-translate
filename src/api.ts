@@ -5,7 +5,7 @@ import {
 } from '../types/global'
 
 export class Api {
-  constructor(private provider: validProvider | null, private token: string) {}
+  constructor(private provider: validProvider | null, private token: string, private custom_provider:string) {}
 
   private get baseUrl(): string {
     switch (this.provider) {
@@ -17,6 +17,8 @@ export class Api {
         return 'https://a-translator-api-cf.nerdynerd.org'
       case 'local':
         return 'http://localhost:1337'
+      case 'custom':
+        return this.custom_provider
       default:
         return 'https://a-translator-api.nerdynerd.org'
     }
