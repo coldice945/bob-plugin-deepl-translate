@@ -4,7 +4,7 @@
     {
       "version": "0.6.0",
       "desc": "https://github.com/geekdada/bob-plugin-deepl-translate/releases/tag/v0.6.0",
-      "sha256": "27c372693105a49ed810658b0dd9392ac15774ef034b938442632c6d5b574962",
+      "sha256": "661029d08d0822b2060b4d35fdc16a1f9b8e8862609fe6bd63ecfc795bd2085f",
       "url": "https://github.com/geekdada/bob-plugin-deepl-translate/releases/download/v0.6.0/bob-plugin-deepl-translate.bobplugin",
       "minBobVersion": "0.5.0"
     },
